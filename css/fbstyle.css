@@ -1,0 +1,61 @@
+/* facebook styles */
+#resaults
+        {
+            background-color: #FFFFFF;
+            border: 1px solid #C2C2C2;
+            border-top: none;
+            left: 0px;
+            position: relative;
+            top:1px; 
+            width: 81%;
+            overflow-y: hidden;
+            overflow-x: hidden;
+            max-height: 353px;;
+            display:none;
+            padding: 0;
+            margin:0;
+            z-index: 100;
+        }
+#resaults a
+{  
+	color: #8b1e41;        
+}     
+
+#resaults a:hover
+{  
+	text-decoration: none;
+	color:#3a3a3a;        
+}   
+
+#resaults li
+{
+    font-size: 12px !important; 
+    /* color: #000; */
+    position: relative !important; 
+    padding-left: 55px !important; 
+    padding-top: 5px !important;
+    height:50px !important;
+    width: 100%;
+    overflow: hidden !important;
+    border-color: #000;
+    border-width; 1px;
+}
+#resaults li:hover
+{
+    background-color: #f1f1f1 !important;
+    color: #fff !important;
+        cursor:pointer !important;
+}
+#resaults li img
+{
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    width:50px;
+    height:50px;
+}
+#resaults li span
+{
+    font-size: 11px;
+    color: #999999;
+}
